@@ -1,7 +1,14 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
 .app {
   margin: auto;
-  width: 50%;
+  width: 80%;
+  max-width: 600px; /* Adjust as needed */
   border: 3px solid green;
   padding: 10px;
 }
@@ -16,10 +23,10 @@
 
 label {
   text-align: center;
-  padding: .43em;
+  padding: 0.5em;
   font-size: 15px;
   margin-bottom: 1em;
-  width: 80%;
+  width: 100%;
 }
 
 form {
@@ -30,5 +37,30 @@ form {
 
 .form-input-control {
   display: flex;
-  width: 70%;
+  width: 100%;
+}
+
+#ticker-input {
+  flex: 1;
+}
+
+button {
+  margin-left: 5px; /* Add space between input and button */
+}
+
+.generate-button {
+  margin-top: 10px; /* Add space between form and button */
+  width: 100%; /* Button takes full width */
+}
+
+p {
+  text-align: center;
+  margin-top: 10px; /* Add space above the tickers */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .app {
+    width: 90%;
+  }
 }
