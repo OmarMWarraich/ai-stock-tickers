@@ -52,3 +52,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
+
+# Note
+Make sure to replace the environment variables in the .env file with your own API keys.
