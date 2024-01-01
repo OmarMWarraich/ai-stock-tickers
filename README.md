@@ -51,7 +51,7 @@ AI Stock Tickers is a simple React web application that allows users to input up
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
+This project is licensed under the terms of the [MIT](./LICENSE.MD) license.
 
 # Note
 Make sure to replace the environment variables in the .env file with your own API keys.
